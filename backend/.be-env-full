@@ -1,0 +1,35 @@
+# ========== App Config ==========
+PROJECT_NAME=FastAPI Backend
+ENVIRONMENT=local
+SENTRY_DSN=
+SECRET_KEY=eTxk_Z09u1QSntj-4p4-ubFSBPv2z3xwzYsqtRAi4MY
+BACKEND_CORS_ORIGINS=http://192.168.100.10,http://localhost
+DOMAIN=fastapi.apps.sno.fat.id
+FRONTEND_HOST=https://fastapi.apps.sno.fat.id
+
+# ========== Database Config ==========
+POSTGRES_SERVER=192.168.100.1
+POSTGRES_PORT=5432
+POSTGRES_DB=app_db
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=babi8481
+
+# ========== Superuser Setup ==========
+FIRST_SUPERUSER=fatheh.alif@gmail.com
+FIRST_SUPERUSER_PASSWORD=babi8481
+
+# ========== APM SETTING ==============
+ELASTIC_APM_SERVICE_NAME=backend
+ELASTIC_APM_SERVER_URL=http://192.168.100.11:8200
+ELASTIC_APM_ENVIRONMENT=local
+ELASTIC_APM_LOG_LEVEL=info
+ELASTIC_APM_LOG_FILE=/app/apm.log
+
+# ========== EMAIL SETTING ==============
+SMTP_HOST=smtp.gmail.com
+SMTP_USER=fatheh.alif@gmail.com
+SMTP_PASSWORD=mmtyoddafwjncejq
+EMAILS_FROM_EMAIL=fastapi@gmail.com
+SMTP_TLS=True
+SMTP_SSL=False
+SMTP_PORT=587
